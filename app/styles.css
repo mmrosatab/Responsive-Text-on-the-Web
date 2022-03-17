@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 0;
+}
+
+html {
+  font-size: 16px;
+}
+
+#root {
+  height: 100vh;
+  font-family: "Fredoka", sans-serif;
+  background-color: #f1f1f1f1;
+}
+
+header {
+  height: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer {
+  padding: 2%;
+  margin-right: 2%;
+  height: 10%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer i {
+  padding-left: 1%;
+  font-size: calc(1rem + 1vw);
+}
+
+main {
+  height: 80%;
+  padding: 2%;
+  display: flex;
+}
+
+h2 > p {
+  margin-top: 2%;
+}
+
+.box1,
+.box2 {
+  padding: 2%;
+  height: 100%;
+}
+
+/* mobile */
+@media screen and (max-width: 480px) {
+  main {
+    flex-direction: column;
+  }
+
+  .box1,
+  .box2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 50%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+
+  .box1 > p,
+  .box2 > p {
+    font-size: calc(0.65rem + 1vw);
+  }
+
+  footer {
+    padding: 2%;
+    display: flex;
+    justify-content: center;
+  }
+
+  footer :nth-child(1) {
+    order: 3;
+  }
+
+  footer :nth-child(2) {
+    order: 2;
+  }
+
+  footer :nth-child(3) {
+    order: 1;
+  }
+}
+
+/* tablet */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  main {
+    flex-direction: column;
+  }
+
+  .box1,
+  .box2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 50%;
+  }
+
+  .box1 > p,
+  .box2 > p {
+    font-size: calc(0.8rem + 1vw);
+  }
+
+  footer {
+    padding: 2%;
+    display: flex;
+    justify-content: center;
+  }
+
+  footer :nth-child(1) {
+    order: 3;
+  }
+
+  footer :nth-child(2) {
+    order: 2;
+  }
+
+  footer :nth-child(3) {
+    order: 1;
+  }
+}
