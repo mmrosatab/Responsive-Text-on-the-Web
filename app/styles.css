@@ -5,6 +5,14 @@
   outline: 0;
 }
 
+a,
+a:focus,
+a:active {
+  text-decoration: none;
+  color: inherit;
+  padding-left: 1%;
+}
+
 html {
   font-size: 16px;
 }
