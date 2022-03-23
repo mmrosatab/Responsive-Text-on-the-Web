@@ -1,29 +1,12 @@
-* {
-  margin: 0;
-  padding: 0;
-  outline: 0;
-  box-sizing: border-box;
-}
-
-a,
-a:focus,
-a:active {
-  text-decoration: none;
-  color: inherit;
-}
-
-html,
-body {
+#container-pg2 {
   background-color: #f1f1f1f1;
-  font-family: "Fredoka", sans-serif;
-  font-size: 16px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-body > a {
+#container-pg2 > a {
   margin-top: 1%;
 }
 

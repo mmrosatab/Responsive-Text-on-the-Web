@@ -1,25 +1,5 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  outline: 0;
-}
-
-a,
-a:focus,
-a:active {
-  text-decoration: none;
-  color: inherit;
-  padding-left: 1%;
-}
-
-html {
-  font-size: 16px;
-}
-
 #root {
   height: 100vh;
-  font-family: "Fredoka", sans-serif;
   background-color: #f1f1f1f1;
 }
 
