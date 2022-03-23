@@ -5,6 +5,10 @@
   outline: 0;
 }
 
+ul {
+  list-style: none;
+}
+
 a,
 a:focus,
 a:active {
@@ -13,7 +17,10 @@ a:active {
   padding: 1%;
 }
 
-html {
+html,
+body {
   font-size: 16px;
   font-family: "Fredoka", sans-serif;
+  width: 100vw;
+  height: 100vh;
 }
